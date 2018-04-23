@@ -1,0 +1,92 @@
+
+
+*{
+  font-family: Helvetica;
+  width: 100%
+  height:auto;
+
+}
+.box {
+  border: 5px solid #1a2e39;
+}
+
+/*Specificity 010 */
+.header {
+  background-image: url("../images/lightgraph.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  border-bottom: 5px solid #1a2e39;
+  }
+/*Specificity 020 */
+  .header h1 {
+    padding: 70px;
+    margin:0;
+    text-align: center;
+    color: #fff;
+  }
+p {
+  padding-left: 5px;
+  margin: 0;
+  display: inline;
+  color: white;
+}
+.phone {
+  display: inline;
+  color: white
+}
+.email {
+  display: inline;
+  color:white;
+}
+.contact {
+  text-align: center;
+}
+section {
+  background-color: #A1E6F7;
+}
+/*Specificity 020 */
+  .skills p {
+    padding: 1em;
+    margin: 0 50px;
+    color: #1a2e39;
+  }
+/*Specificity 010 */
+  h2 {
+    text-decoration: underline;
+    text-decoration-color: #1a2e39;
+    padding-top:1em;
+    margin: 0 50px;
+    color: #1a2e39;
+  }
+/*Specificity 010 */
+  h4 {
+    padding-top: 1em;
+    margin: 0 50px;
+    color: #1a2e39;
+
+  }
+/*Specificity 010 */
+  h5 {
+    padding-top: .5em;
+    margin: 0 50px;
+    text-decoration: underline;
+    font-style: italic;
+    color: #1a2e39;
+  }
+/*Specificity 010 */
+  .length {
+    text-decoration: none;
+    padding: 0;
+  }
+/*Specificity 010 */
+  ul {
+    padding: 15px;
+    margin: 0 75px;
+    color: #1a2e39;
+  }
+/*Specificity 010 */
+  li{
+    font-size: 16px;
+  }
